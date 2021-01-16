@@ -4,11 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="css/style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-</head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Fjord+One&display=swap" rel="stylesheet">
+  </head>
 <body>
-    
+    <!-- navigation section, bootstrap nav component -->
+    <ul class="nav justify-content-around" style="font-size: 18px; background:rgba(218, 164, 109, 0.15);
+    ;">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+      
+      <!--jumbotron, component -->
+      <div class="jumbotron1 jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-5">Government Website<br>Redesign<br> Case Study</h1>
+          <p class="lead">Rayna Jeremias & Talia Dobrec<br> UX/UI Designers</p>
+          <p> Project Duration- 2 weeks</p>
+          <br>
+          <p><b>Overview</b><br><i>Project Brief-</i><br>Redesign a government website based on a 
+            comprehensive <br>user analysis and heuristics evaluation. <br><i>The Problem-</i><br>Arizona.gov needed a 
+            major overhaul, from content to continuity. <br> <i>The Goal-</i><br>To create an esthetically
+            pleasing site that has excellent usability.
+          </p>
+          <img src="images/azgov.png" class="az">
+        </div>
+      </div>
+
+     <div>
+          <ul class="nav justify-content-around" id="stickyNav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#research" style="font-size: 30px; color:#9C4F20">Research</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-size: 30px; color: #766621;" id="ideation">Ideation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-size: 30px; color: #DAA46D" id="design">Design</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="font-size: 30px; color: #72879D;" id="testing">Testing</a>
+            </li>
+          </ul>
+     </div>
+          <div>
+            <div class="jumbotron2 jumbotron-fluid" style="background:rgba(218, 164, 109, 0.15)">
+              <div class="container">
+            <br><br><br>
+            <h1 class="researchHeading" id="research">Research</h1>
+            <p>My partner and I began our project by doing a heuristic evaluation of the current 
+              website. We created a short user test and had people try to navigate the site. The website
+              felt cold and unwelcoming, with no content other than a single, large image of Coronavirus. 
+              Navigation had many flaws, including clicking the tab you wanted and landing on another 
+              option page, which was frustrating to users. Another issue was the overwhelming amount
+              of external links.
+              <br><br>
+              <p><b>Pain Points</b>
+              <br> •Navigation confusion<br> •Overwhelming amount of external links<br>•Not a lot of content</p>
+              
+            </p>
+          </div>
+        </div>
+      </div>
+      <div style="background-color: #d8a271;">
+        <img src="images/azmain.png" alt="pic of original site" id="azmain">
+      </div>
+      <div>
+        <div class="jumbotron2 jumbotron-fluid" style="background:rgba(218, 164, 109, 0.15)">
+          <div class="container3">
+            <img src="images/analytics.png" alt="pic of sunset with text" id="analytics">
+            <div class="pAnalytics"><p>My partner used Google Analytics to find key data on our site.<br> It was surprising to see
+            how high the site bounce rate was- 56%</p>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <!--case study navigation-->
+      <ul class="nav justify-content-around">
+        <li class="nav-item">
+          <a class="nav-link active" href="#" style="font-size: 30px; color:#9C4F20">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="font-size: 30px; color: #766621;">Ideation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="font-size: 30px; color: #DAA46D">Design</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="font-size: 30px; color: #72879D;">Testing</a>
+        </li>
+      </ul>
+      <!--research section-->
+
+      <!--ideation section-->
+
+      <!--design section-->
+
+      <!--testing section-->
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

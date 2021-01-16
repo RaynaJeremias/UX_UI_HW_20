@@ -1,0 +1,76 @@
+/* navigation */
+.nav-link{
+    font-family: "Trebuchet MS" , sans-serif;
+    color: black;
+}
+
+#stickyNav{
+    background-color: white;
+    position: sticky;
+    margin-top: 0;
+    width: 100%;
+    z-index: 0;
+    
+}
+/* jumbotron */
+.jumbotron1{
+    /* display: flex; */
+    background-color: #7666218f;
+    font-family: 'Trebuchet MS', sans-serif;
+    border: red 1px solid;
+    /* height: 529px; */
+}
+
+.az{
+    position: absolute;
+    top: 110px;
+    right: 0px; /* margin-right: auto; */
+  width: 60%;
+}
+.jumbotron2{
+    width: auto;
+    height: 529px;
+}
+.researchHeading{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    color: rgb(243, 219, 196);
+    text-shadow: -1px 1px 0 #9c4f20,
+				  1px 1px 0 #9c4f20,
+				 1px -1px 0 #9c4f20,
+				-1px -1px 0 #9c4f20;
+
+}
+img#azmain{
+    display: block;
+    width: auto;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container3{
+    position: relative;
+}
+img#analytics{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 5%;
+    width: 620px;
+    height: 400px;
+} 
+
+  
+.pAnalytics{
+    width: 500px;
+    height: 529px;
+    display: flex;
+    align-items: center;
+    
+    /* justify-content: center; */
+}
+.pAnalytics p{
+    width: 10em;
+    margin-left: 50px;
+}
+/* case study nav */
