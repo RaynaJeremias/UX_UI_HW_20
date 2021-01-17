@@ -9,6 +9,7 @@
     position: sticky;
     margin-top: 0;
     width: 100%;
+    top: 0;
     
 }
 /* jumbotron */
@@ -16,7 +17,6 @@
     /* display: flex; */
     background-color: #7666218f;
     font-family: 'Trebuchet MS', sans-serif;
-    border: red 1px solid;
     /* height: 529px; */
 }
 
@@ -70,6 +70,114 @@ img#analytics{
 }
 .pAnalytics p{
     width: 10em;
+    margin-left: 50px;
+}
+img#persona{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 3%;
+    width: 600px;
+    height: auto;
+}
+.ideation{
+    width: 200px;
+    height: 529px;
+    
+}
+.ideation h1{
+    width: 10em;
+    margin-left: 50px;
+}
+.ideation p{
+    width: 10em;
+    margin-left: 50px;
+}
+.ideationHeading{
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    color: #d1bf6c;
+    text-shadow: -1px 1px 0 #766621,
+				  1px 1px 0 #766621,
+				 1px -1px 0 #766621,
+                -1px -1px 0 #766621;
+}
+.designHeading{
+    /* margin-top: 50px; */
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    color: #f1d1b0;
+    text-shadow: -1px 1px 0 #DAA46D,
+				  1px 1px 0 #DAA46D,
+				 1px -1px 0 #DAA46D,
+				-1px -1px 0 #DAA46D;                    
+}
+.design{
+    width: 40em;
+    margin-left: 50px;
+}
+img#design1{
+    width: 500px;
+    margin-left: 500px;
+}
+img#design2{
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+img#design3{
+    margin-left: 55px;
+    margin-top: 50px;
+}
+.testingHeading{
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    color: #b0cdec;
+    text-shadow: -1px 1px 0 #72879D,
+				  1px 1px 0 #72879D,
+				 1px -1px 0 #72879D,
+				-1px -1px 0 #72879D;
+}
+.testing{
+    width: 40em;
+    margin-left: 50px;
+}
+.testing p{
+    margin-left: 50px;
+}
+img#phone1{
+    width: 300px;
+    height: 600px;
+}
+img#phone2{
+    width: 300px;
+    height: 600px;
+}
+img#phone3{
+    margin-top: -10px;
+    width: 310px;
+    height: 625px;
+    
+   
+}
+.test{
+    display: flex;
+    justify-content: center;
+}
+.conclusionHeading{
+    margin-left: 50px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 48px;
+    color: rgb(243, 219, 196);
+    text-shadow: -1px 1px 0 #9c4f20,
+				  1px 1px 0 #9c4f20,
+				 1px -1px 0 #9c4f20,
+				-1px -1px 0 #9c4f20;
+}
+.conclusion{
+    width: 40em;
     margin-left: 50px;
 }
 /* case study nav */
